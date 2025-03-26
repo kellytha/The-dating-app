@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="Signup.css">
+</head>
+<body>
+
+    <main>
+        <h1 class="signup">SignUp</h1>
+
+        <form action="submit" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="first-name">First Name: </label><br>
+                <input type="text" id="first-name" name="first-name" required><br><br>
+
+                <label for="last-name">Last Name: </label><br>
+                <input type="text" id="last-name" name="last-name" required><br><br>
+
+                <label for="email">Email address: </label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone-number">Phone Number: </label><br>
+                <input type="tel" id="phone-number" name="phone-number" required><br><br>
+
+                <label for="age">Age: </label><br>
+                <select id="age" name="age" required>
+                    <option value="">--Please Select Your Age Group--</option>
+                    <option value="18-25">18-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="35-45">36-35</option>
+                    <option value="45+">45+</option>
+                </select><br><br>
+
+                <label for="gender">Gender: </label><br>
+                <select id="gender" name="gender">
+                    <option value="">--Please Select Your Gender--</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="rather-not-say">Rather Not Say</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Location Information</legend>
+
+                <label for="city">City: </label><br>
+                <input type="text" id="city" name="city" required><br><br>
+
+                <label for="state">State/Province: </label><br>
+                <input type="text" id="state" name="state" required><br><br>
+
+                <label for="country">Country: </label><br>
+                <input type="text" id="country" name="country" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Relationship Goals</legend>
+
+                <label for="goals">What Are You Looking For In A Relationship ?</label><br>
+                <textarea id="goals" name="goals" rows="4" placeholder="list important values (e.g, trust, communication, honesty, etc. )" required></textarea><br><br>
+
+                <label for="long-term">Are You Looking For A Long-Term Relationship ?</label><br>
+                <input type="radio" id="long-term-yes" name="long-term" value="yes">
+                <label for="long-term-yes">Yes</label><br>
+                <input type="radio" id="long-term-no" name="long-term" value="no">
+                <label for="long-term-no">No</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Interest</legend>
+
+                <label for="hobbies">What Are Your Hobbies Or Interest ?</label><br>
+                <textarea id="hobbies" name="hobbies" rows="2" required></textarea><br><br>
+
+                <label for="lifestyle">Do You Prefer An Active Or Relaxed Lifestyle ?</label><br>
+                <input type="radio" id="active" name="lifestyle" value="active" >
+                <label for="active">Active</label><br>
+                <input type="radio" id="relaxed" name="lifestyle" value="relaxed">
+                <label for=relaxed>Relaxed</label>
+            </fieldset>
+
+            <button type="button">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 The Dating App</p>
+    </footer>
+    
+</body>
+</html>

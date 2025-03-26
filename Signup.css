@@ -1,0 +1,78 @@
+body{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4; 
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+}
+form{
+    background-color: white; 
+    padding: 95px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 75%;
+    max-width: 400px; 
+}
+.signup{
+    text-align: center;
+    color:pink
+}
+legend{
+    color:blue;
+    font-size:17px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+label{
+    color:rgb(245, 6, 45);
+    display: block;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(64, 64, 211) ;
+    box-sizing: border-box; 
+}
+fieldset{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    margin:0;
+}
+input[type="text"], input[type="number"],input[type="radio"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(64, 64, 211) ;
+    box-sizing: border-box; 
+}
+button {
+    background-color: rgb(245, 6, 45);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 45%;
+}
+
+button:hover {
+    background-color: rgb(64, 64, 211); 
+}
+footer {
+    background-color:rgb(245, 6, 45);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    width: 100%; 
+    position: fixed;
+    bottom: 0; 
+}
